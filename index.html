@@ -11,16 +11,16 @@
 </head>
 <body>
 
-    <header class="header">
+    <header class="header" id ="header">
         <h1 class="header-title">Denys Solonin</h1>
         <p class="header-subtitle">Freelancer, C++ Developer, Game Developer</p>
-        <div class="header-arrow">
+        <a href="#portfolio" class="header-arrow">
             <img src="./img/header/chevron-down.svg" alt="arrow">
-        </div>
+        </a>
     </header>
 
     <main>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="container">
                 <h2 class="portfolio-header">Portfolio</h2>
 
@@ -114,7 +114,15 @@
 
             </div>
         </div>
-    </footer>
+    </footer>    
+
+    <!-- Libs and plugins -->
+    <script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
+
+    <!-- Main scripts and libs call-->
+    <script src="./js/main.js"></script>
+
 
 </body>
 </html>
